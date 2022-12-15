@@ -1,0 +1,260 @@
+# FREE-PLAY
+100 Days of Python
+# import random
+
+# magic_numbers = [random.randint(0,9), random.randint(0,9)]
+# chances = 3
+
+
+# for attempt in range(chances): #range chanses is [0,1,2]
+#     print("This is attempt {}" .format(attempt))
+#     user_number = int(input("enter a number between 0 and 9: "))
+#     if user_number in magic_numbers:
+#         print("You got the number right!")
+#     if user_number not in magic_numbers:
+#         print("You didnt quite get it.")
+
+# import random
+# def ask_user_and_check_number():
+#     user_number = int(input("Enter a number between 0 and 9: "))
+#     if user_number in magic_numbers:
+#         return "You got the number right!"
+#     if user_number not in magic_numbers:
+#         return "You didnt quite get it."
+
+# numbers = [3,16, 7, 4, 3, 3, 3 ]
+# numbers = set()
+# set()
+# numbers.add(3)
+# print(numbers)
+
+# lottery_values = {3, 5, 17, 6}
+# user_values = {3, 5, 11, 2}
+# print(lottery_values.intersection(user_values))
+
+# n = 5
+# while n > 0:
+#     print(n)
+#     n= n - 1
+# print('Blastoff!!')
+
+# inp = input("Europe floor? ")
+# usf = int(inp) + 1
+# print("US floor", usf)
+
+# xh = input('Enter hours: ')
+# xr = input('Enter Rate: ')
+# xp = float(xh) * float(xr)
+# print('Pay:', xp)
+
+# x = 5
+# if x==5:
+#     print('Equals 5')
+# if x> 4:
+#     print('Greater than 4')
+# if x>=5:
+#     print('Greater than or Equals 5')
+# if x<6: print('Less than 6') #shorthand method
+# if x<=5:
+#     print('Less than or Equals 5')
+# if x!=6:
+#     print('Not equal 6')
+
+# input('Whos the biggest? ')
+# x=0
+# if x<2:
+#     print('too tiny')
+# elif x<10:
+#     print('Medium')
+# else:
+#     print('Large and in charge!!')
+# print('All Done!')
+
+# astr = 'Hello Bob'
+# try:
+#     istr = int(astr)
+# except:
+#     istr = -1
+# print('First', istr)
+# astr = '123'
+# try:
+#     istr = int(astr)
+# except:
+#     istr = -1
+# print('Second', istr)
+
+# rawstr = input('Enter a number:')
+# try:
+#     ival = int(rawstr)
+# except:
+#     ival = -1
+# if ival > 0:
+#     print('Nice Work')
+# else:
+#     print('Not a number')
+
+# def thing():
+#     print('hello')
+#     print('fun')
+# thing()
+# print('zip')
+# thing()
+
+# minimum_points = 100
+# data_points = 150
+# if data_points >= minimum_points:
+#     print("There are enough data points")
+# if data_points < minimum_points:
+#     print("Keep collecting data. ")
+
+# my_bill = float(input("What was the bill? "))
+# number_of_people = int(input('How many people? '))
+# answer = my_bill / number_of_people
+# answer = round(answer,2)
+# print("You all owe", answer)
+
+# myBill = float(input("What was the bill?: "))
+# numberOfPeople = int(input("How many people?: "))
+# tip = int(input("What percent tip do you want to leave: 15, 18, or 20 percent?"))
+
+# bill_with_tip = tip / 100 * myBill + myBill
+# bill_per_person = bill_with_tip / numberOfPeople
+# final_amount = round(bill_per_person, 2)
+
+# print("You all owe", final_amount)
+
+
+# exit = "no"
+
+
+# while exit == "no":
+#   animal_sound = input("What animal sound do you want to hear? ")
+
+#   if animal_sound == "cow" or animal_sound == "Cow":
+#     print("moo")
+#   elif animal_sound == "pig" or animal_sound == "Pig":
+#     print ("Oink")
+#   elif animal_sound == "sheep" or animal_sound == "Sheep":
+#     print("Baaa")
+#   elif animal_sound == "duck" or animal_sound == "Duck":
+#     print("Quack")
+#   elif animal_sound == "Dog" or animal_sound == "Dog":
+#     print("Woof")
+#   elif animal_sound == "cat" or animal_sound == "Cat":
+#     print("Meow")
+#   else:
+#     print("I don't know that animal sound. Try again.")
+  
+  
+#   exit = input("Do you want to exit? ")
+
+# print("Definitely not a Phishing Scam")
+# print()
+# your_name = input("Your Name? ")
+# print("Thanks for logging in")
+# print(your_name)
+# card_number = input("What is your credit card number?")
+# print("Thanks, I definitely wont put your")
+# print("cardNumber")
+# print("into Amazon and order anything weird")
+# print()
+# print("Promise")
+# maiden_name = input("What is your Mother's maiden name? ")
+# print()
+# print("That's cool, I just wanted to know that")
+# print(maiden_name)
+# print("was your Mum's maiden name. Not because the bank requested it or anything, honest.")
+
+# print("=== Your Song Generator ===")
+# print("""You'll be asked a bunch of questions
+# then we'll make you up an amazing
+# song, totally copyright free 😭""")
+# print()
+# person = input("Name a person famous for something good: ")
+# thing = input("Name a thing they did: ")
+# place = input("Name a place you like: ")
+# rhyme = input("Give me a verb that rhymes with your person's name: ")
+# print()
+# print("There was a person called", person)
+# print("Who did something cool like", thing, "at the wonderful", place, "where you'll find me", rhyme)
+
+# print("===Crime Report Evaluator===")
+# crime = input("Robbery " + "PC 211")
+# print("enter building, structure, intent to commit crime")
+
+# print("=== Your Adventure Simulator ===")
+# name = input("Your name: ")
+# enemy = input("Your worst enemy's name: ")
+# superpower = input("Your super power: ")
+# print()
+# print("Our story begins as the hero approaches the entrance to the alley...")
+# print("Suddenly, ", enemy, "appears in his pathway and charges him in an attempt to knock him to the floor ", name, "stands his ground with great ", superpower, "and floors ", enemy, "flat on his back. ")
+# print("You have been given a", "\033[31m", "warning", "\033[0m", "for creating a disturbance ")
+
+#crime = input("Charges? ")
+# robbery = ("PC 211")
+# robbery_crime_elements = ("take the personal property of another, in their presence, by violence, intimidation, threat, with the intent to permanently deprive.")
+# if crime == robbery_crime_elements or robbery:
+#   print("Crime valid")
+# else:
+#   print("Crime not valid!!")
+
+# drink = input("Do you prefer coffee or tea? ")
+# if drink == "coffee":
+#   print("Tea is better.")
+# else:
+#   print("Excellent choice.")
+
+# print("===MMA STAR CREATOR===")
+# fighter = input("Who's your favorite MMA fighter? ")
+# style = input("Do you prefer standup or ground? ")
+# if style == "standup":
+#   print("You like to bang like Adessanya, damage control damage control!!")
+# if style == "ground":
+#   print("You like to sub like Royce")
+#   print("You're an all around scrapper!!")
+
+# else:
+#   print("Best response!! Balance is king my friend!!")
+
+# print("===SECURE LOGIN===")
+# user_name = input("Please enter your username ")
+# password = input("Please enter your password ")
+
+# if user_name == "JMAC" and password == "ST18TITANS":
+#   print("ACCESS GRANTED! WELCOME JMAC!")
+# elif user_name == "joanie" and password == "J80GRN!":
+#   print("ACCESS GRANTED! WELCOME JOANIE!")
+# elif user_name == "max" and password == "26canyonwarrior":
+#   print("ACCESS GRANTED! WELCOME MAX!!")
+# elif user_name == "lopez" and password == "sgt262022d":
+#   print("ACCESS GRANTED! WELCOME SGT!!")
+# else:
+#   print("ACCESS DENIED")
+
+# season = input("What is your favorite season? ") # ***THIS PROG INF LOOPS!!***
+# while season == "spring" and "summer" and "autumn" and "winter":
+#   if season == "spring":
+#     print("Ah! The birds are chirping and flowers blooming.")
+#   elif season == "summer":
+#     print("Catch some sun and cool off with a lemonade.")
+#   elif season == "autumn":
+#     print("The leaves are changing and the air is crisp. Enjoy!")
+#   elif season == "winter":
+#     print("Stay warm by the fire and watch the snow fall.")
+#   else: 
+#     print("I don't know that season. Please try again.")
+
+# print("***MY LOGIN SYSTEM***")
+# user = input("Username? ")
+# passwd = input("Password? ")
+# if user == "higgs" and passwd == "clown":
+#   print("well hello there mr ass clown?! Welcome!")
+# elif user == "brain" and passwd == "genius coder":
+#   print("ACCESS GRANTED OH WISE ONE! WELCOME!!")
+# elif user == "JROC" and passwd == "TUF6":
+#   print("open sesame my brotha!! welcome back cousin!!")
+# else:
+#   print("FUCC OFF!!")
+
+
