@@ -248,13 +248,13 @@
 # print("***MY LOGIN SYSTEM***")
 # user = input("Username? ")
 # passwd = input("Password? ")
-# if user == "higgs" and passwd == "clown":
-#   print("well hello there mr ass clown?! Welcome!")
+# if user == "higgs" and passwd == "BOSS22":
+#   print("welcome, hello mr higgs!")
 # elif user == "brain" and passwd == "genius coder":
-#   print("ACCESS GRANTED OH WISE ONE! WELCOME!!")
+#   print("ACCESS GRANTED SIR BRAIN!!")
 # elif user == "JROC" and passwd == "TUF6":
-#   print("open sesame my brotha!! welcome back cousin!!")
+#   print("WELCOME JROC!!")
 # else:
-#   print("FUCC OFF!!")
+#   print("ACCESS DENIED!!")
 
 
